@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+header{
+    
+    background-repeat: no-repeat;
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 700px;
+    
+}
+.heading{
+    display: flex;
+}
+.right-area{
+   display: flex;
+   justify-content: end;
+}
+
+.right-area ul{
+    display: flex;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+ul li{
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ul,ol{
+    list-style: none;
+}
+li:hover .home1{
+    visibility: visible;
+}
+
+ul li i{
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 2px 12px;
+}
+.book{
+    width: 110px;
+    height: 25px;
+    background-color: #bb9356;
+    color: #ffffff;
+    border-color: #bb9356;
+    font-weight: bold;
+}
+.book p{
+    text-align: center;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 13px;
+    font-weight: bold;
+}
+.straight{
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 1.5px;
+    height: 13px
+}
+.book:hover{
+    width: 110px;
+    height: 25px;
+    background-color: #fff;
+    color: #bb9356;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.slide--subheadline{
+    color: #bb9356;
+    font-family: 'Ruthie', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 45px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.slide--headline{
+    color: #ffffff;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 85px;
+    font-weight: 400;
+    line-height: 100px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+}
+
+.slide--textcenter{
+    color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.book-your-table{
+    display: flex;
+    justify-content: center;
+}
+
+.bookbutton{
+    height: 50px;
+    width: 270px;
+    border-radius: 60px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bookbutton p{
+    font-weight: bold;
+    color: #bb9356;
+}
+.bookbutton:hover{
+    background-color: #fff;
+    height: 50px;
+    width: 270px;
+    border-radius: 60px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+.bookbuttoon p:hover{
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.brightness{
+   background-color: rgba(27, 26, 26, 0.75);
+   padding-top: 10px;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.dot{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.dot1{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.dot:hover{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.slide--headline1{
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.right-area2 img{
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.menu1{
+    width: 100%;
+    height: 0px;
+    background-color: #222222;
+    visibility: hidden;
+}
+.home-underline:hover .menu1{
+    visibility: visible;
+    width: 100%;
+    height: 150px;
+    background-color: #222222;
+    transition: all 0.5s ease;
+}
+
+
+.cnt1-photo{
+    padding-top: 200px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.cnt1-photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.bookbutton2{
+    
+        height: 50px;
+        width: 270px;
+        border-radius: 60px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    
+}
+
+.bookbutton2 p{
+    font-weight: bold;
+    color: #bb9356;
+}
+.bookbutton2:hover{
+    background-color: #fff;
+    height: 50px;
+    width: 270px;
+    border-radius: 60px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+.bookbuttoon2 p:hover{
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+
